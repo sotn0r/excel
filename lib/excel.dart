@@ -2,7 +2,6 @@ library excel;
 
 import 'dart:convert';
 import 'dart:math';
-import 'dart:typed_data';
 import 'package:archive/archive.dart';
 import 'package:collection/collection.dart';
 import 'package:equatable/equatable.dart';
@@ -26,6 +25,8 @@ part 'src/utilities/fast_list.dart';
 part 'src/utilities/utility.dart';
 part 'src/utilities/constants.dart';
 part 'src/utilities/enum.dart';
+part 'src/utilities/archive.dart';
+part 'src/utilities/colors.dart';
 
 /// Save
 part 'src/save/save_file.dart';

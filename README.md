@@ -1,22 +1,16 @@
 # Excel
 
-## If you find this tool useful, please drop a ⭐️
-
 <a href='https://flutter.io'>  
   <img src='https://img.shields.io/badge/Platform-Flutter-yellow.svg'  
     alt='Platform' />  
 </a>
-<a href='https://github.com/justkawal/excel'>  
-  <img src='https://github.com/justkawal/excel/workflows/Test/badge.svg'  
-    alt='Test' />  
-</a>
 <a href='https://pub.dartlang.org/packages/excel'>  
   <img src='https://img.shields.io/pub/v/excel.svg'  
-    alt='Pub Package' />  
+    alt='Pub Package' />
 </a>
 <a href='https://opensource.org/licenses/MIT'>  
   <img src='https://img.shields.io/badge/License-MIT-red.svg'  
-    alt='License: MIT' />  
+    alt='License: MIT' />
 </a>
 <a href='https://github.com/justkawal/excel/issues'>  
   <img src='https://img.shields.io/github/issues/justkawal/excel'  
@@ -31,11 +25,20 @@
     alt='Stars' />  
 </a>
 
-### [Excel](https://www.pub.dev/packages/excel) is a flutter and dart library for reading, creating and updating excel-sheets for XLSX files
+### [Excel](https://www.pub.dev/packages/excel) is a flutter and dart library for reading, creating and updating excel-sheets for XLSX files.
 
-#### This library is [MIT](https://github.com/justkawal/excel/blob/40b8b1ed8c3c213d8911784ddd40bf97841977a1/LICENSE#L1) licensed So, it's free to use anytime, anywhere without any consent, because we believe in Open Source work
+## Road-map:
+ - ➕ Formulas and Calculations
+ - 💾 Support Multiple Data type efficiently
+ - 📈 Charts
+ - 🌄 Add Pictures
+ - 📰 Create Tables and style
+ - 🔐 Encrypt and Decrypt excel on the go.
+ - Many more **features**
 
-Is your excel file password protected? [Protect](https://github.com/justkawal/protect.git) helps you to apply and remove password protection on your excel file.
+## Breaking changes from 4.x.x to 5.x.x
+
+- Updated minimum Dart SDK to 3.6.0
 
 ## Breaking changes from 3.x.x to 4.x.x
 
@@ -50,6 +53,8 @@ Is your excel file password protected? [Protect](https://github.com/justkawal/pr
 - Renamed `getColWidth()` to `getColumnWidth()` in `Sheet`
 - Renamed `setColAutoFit()` to `setColumnAutoFit()` in `Sheet`
 - Renamed `setColWidth()` to `setColumnWidth()` in `Sheet`
+
+## If you find this tool useful, please drop a ⭐️
 
 ## Usage
 
